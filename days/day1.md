@@ -25,7 +25,7 @@ je valid_password    ; Saut vers valid_password si égal
 jmp exit             ; Sinon, quitter
 
 
-### Instruction JE (opcode 0x74)
+Instruction JE (opcode 0x74)
 
 Signifie : "si égal, sauter à `valid_password`".
 
@@ -33,7 +33,7 @@ En remplaçant `JE` par `JNE` (opcode `0x75`), on inverse la condition.
 
 ---
 
-### Étapes du patching
+Étapes du patching
 
 1. Identifier l’adresse de l’instruction `JE` dans le binaire.  
 2. Ouvrir le binaire dans un éditeur hexadécimal.  
@@ -42,13 +42,13 @@ En remplaçant `JE` par `JNE` (opcode `0x75`), on inverse la condition.
 
 ---
 
-### Effet du patch
+Effet du patch
 
 Après modification, le programme sautera vers la section `valid_password` uniquement si la comparaison est fausse, ce qui inverse la logique et permet d’outrepasser la vérification initiale.
 
 ---
 
-### Remarques
+Remarques
 
 - Cette méthode est simple et efficace sur des programmes avec une logique linéaire.  
 - Sur des programmes plus complexes, il peut être nécessaire d’analyser plus en profondeur et de patcher plusieurs endroits.  
@@ -56,13 +56,13 @@ Après modification, le programme sautera vers la section `valid_password` uniqu
 
 ---
 
-### Outils recommandés
+Outils recommandés
 
 - `hexedit`, `ht` ou tout autre éditeur hexadécimal.  
 - `objdump` ou `BinaryNinja`  pour analyser les binaires.  
 
 ---
 
-### Conclusion
+Conclusion
 
 Le patching par remplacement d’un saut conditionnel est une des techniques fondamentales du cracking. Ce premier exemple illustre comment un simple changement d’opcode peut modifier significativement le comportement d’un programme.
