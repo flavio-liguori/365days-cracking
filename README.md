@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce dépôt regroupe une série d’exercices, analyses et démonstrations liées au cracking et à la sécurité informatique, réalisées sur une durée de 365 jours. Chaque jour, un nouveau contenu est ajouté pour documenter la démarche, les méthodes employées, ainsi que les résultats obtenus.
+Ce dépôt regroupe une série d’exercices, analyses et démonstrations liées au cracking et à la sécurité informatique, réalisées sur une durée de 365 jours. Chaque jour, un nouveau contenu est ajouté pour documenter la démarche, les méthodes employées, ainsi que les résultats obtenus. 
 
 ## Objectifs
 
@@ -21,6 +21,7 @@ Ce dépôt regroupe une série d’exercices, analyses et démonstrations liées
 
 - Connaissances de base en programmation et systèmes Unix/Linux.  
 - Environnement adapté pour l’exécution des scripts et outils présentés.
+- Connaissance floue ( voir très floue ) du concept de crack .
 
 ## Avertissement légal
 
